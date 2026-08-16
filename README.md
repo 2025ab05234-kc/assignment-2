@@ -38,12 +38,11 @@ https://github.com/2025ab05234-kc/assignment-2.git
 
 ### Observations on Model Performance
 
-| ML Model Name            | Observation about model performance                                                                                                                                   |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Logistic Regression      | High recall (97.62%) with strong AUC (0.9970). Slightly lower precision (0.93). Simple, interpretable, and fast.                                                      |
-| Decision Tree            | Lowest accuracy (92.11%) among models. AUC (0.9484) with entropy criterion. Single tree more interpretable but prone to variance.                                     |
-| kNN                      | Good performance (95.61% accuracy). Balanced metrics. AUC (0.9835) shows good discrimination. Sensitive to feature scaling; benefits from StandardScaler in pipeline. |
-| Naive Bayes              | Tied for best accuracy (98.25%). Excellent balance — precision and recall both 97.62%. High AUC (0.9974). Strong improvement with tuned threshold.                    |
-| Random Forest (Ensemble) | Highest AUC (0.9980). Good precision (0.975) and recall (0.929). Ensemble reduces overfitting; robust and generalizes well.                                           |
-
+| ML Model Name                    | Observation about model performance                                                                                                                                                     |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Logistic Regression              | High recall (97.62%) with strong AUC (0.9970). Slightly lower precision (0.93). Simple, interpretable, and fast.                                                                        |
+| Decision Tree                    | Lowest accuracy (92.11%) among models. AUC (0.9484) with entropy criterion. Single tree more interpretable but prone to variance.                                                       |
+| kNN                              | Good performance (95.61% accuracy). Balanced metrics. AUC (0.9835) shows good discrimination. Sensitive to feature scaling; benefits from StandardScaler in pipeline.                   |
+| Naive Bayes                      | Tied for best accuracy (98.25%). Excellent balance — precision and recall both 97.62%. High AUC (0.9974). Strong improvement with tuned threshold.                                      |
+| Random Forest (Ensemble)         | Highest AUC (0.9980). Good precision (0.975) and recall (0.929). Ensemble reduces overfitting; robust and generalizes well.                                                             |
 | Overall Winner for your dataset? | **Naive Bayes**. Tied for the best accuracy (98.25%) with excellent balance (Precision and Recall both at 97.62%) and a high AUC (0.9974). Performs exceptionally well on this dataset. |
